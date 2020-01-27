@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="33%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp">
+
+    <Row>
+        <Key android:codes="1" android:keyLabel="Sprawdź NFC" android:keyEdgeFlags="left"/>
+        <Key android:codes="2" android:keyLabel="NFC ON/OFF"/>
+        <Key android:codes="3" android:keyLabel="Przeglądarka" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="4" android:keyLabel="Usuń" android:keyEdgeFlags="left"/>
+        <Key android:codes="5" android:keyIcon = "@drawable/ic_bluetooth_name" />
+        <Key android:codes="6" android:keyLabel="2/2" android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>

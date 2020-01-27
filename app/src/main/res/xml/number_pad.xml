@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="33%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp">
+
+    <Row>
+        <Key android:codes="1" android:keyLabel="Wprowadź tekst" android:keyEdgeFlags="left"/>
+        <Key android:codes="2" android:keyLabel="Dźwięk kota"/>
+        <Key android:codes="3" android:keyLabel="Aparat" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="4" android:keyLabel="Zapisz" android:keyEdgeFlags="left"/>
+        <Key android:codes="5" android:keyLabel="Toast" />
+        <Key android:codes="6" android:keyLabel="1/2" android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>
